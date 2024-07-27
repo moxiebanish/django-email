@@ -38,8 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'rest_framework',
     'django.contrib.staticfiles',
-    'firstapp',
-    'codesphere',
     'mailing',
 ]
 
@@ -144,6 +142,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 25
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'mmoxiline@gmail.com'
-EMAIL_HOST_PASSWORD = 'zmtv ykda kfjv wetr'
+EMAIL_HOST_USER = 'your server'
+EMAIL_HOST_PASSWORD = 'your password'
 
