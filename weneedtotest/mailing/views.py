@@ -25,7 +25,7 @@ def send_email_view(request):
             email = EmailMultiAlternatives(
                 subject=subject_template.strip(),
                 body=message,
-                from_email='mmoxiline@gmail.com',
+                from_email='your_email',
                 to=[recipient]
             )
             email.attach_alternative(body_template, 'text/html')
